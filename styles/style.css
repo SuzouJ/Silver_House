@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+.logo1{
+    display: flex;
+    margin: 0 auto;
+    padding: 50px 0 79px 0;
+}
+.container ul .list{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    color: #8C8A8A;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.container ul .list .dich{
+    padding: 0px 55px 0px 5px;
+}
+
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+
+/**********************************************************/
+
+
+.box1 .block1{
+    max-width: 1110px;
+    width: 100%;
+    height: 450px;
+    background: url(../images/block1.jpg) no-repeat center /cover;
+    display: flex;
+    margin: 30px auto 30px;
+}
+
+
+/**********************************************************/
+
+
+.box2{
+    max-width: 1140px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin: 0 auto;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+.box2 .block2{
+    background: var(--grey, #F0F0F0);
+    max-width: 730px;
+    width: 100%;
+    height: 500px;
+}
+.box2 .block2 h1{
+    color: #4581B7;
+    text-align: center;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 700;
+    padding: 50px 297px 25px 40px;
+}
+.box2 .block2 p{
+    color: #808080;
+    font-size: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    padding: 0 95px 0 47px;
+}
+
+
+
+.box2 .block3 a{
+    display: flex;
+    flex-direction: column;
+}
+.box2 .block3 .call{
+    color: #808080;
+    font-size: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    padding: 0 0 50px 40px;
+}
+.box2 .block3 .mail{
+    color: #808080;
+    font-size: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    padding: 0 0 0 40px;
+}
+
+
+
+.box2 .block3{
+    background: var(--grey, #F0F0F0);
+    max-width: 350px;
+    width: 100%;
+    height: 500px;
+}
+.box2 .block3 h1{
+    color: #4581B7;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 700;
+    padding: 50px 0 29px 40px;
+}
+.box2 .block3 p{
+    color: #808080;
+    font-size: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    padding: 0 95px 26px 40px;
+
+}
+
+
+/**********************************************************/
+
+
+
+.box3{
+    max-width: 1110px;
+    width: 100%;
+    height: 150px;
+    background: var(--grey, #F0F0F0);
+    display: flex;
+    margin: 30px auto 0;
+}
+
+.box3 .block4{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.box3 .block4 .footer-logo{
+    padding: 15px 40px 15px 40px;
+}
+
+.box3 .block4 .block5 h2{
+    color: #808080;
+    font-size: 17px;
+    font-family: Roboto;
+    font-weight: 400;
+    padding: 46px 40px 10px 473px;
+}
+.box3 .block4 .block5 h1{
+    color: #808080;
+    font-size: 25px;
+    font-family: Roboto;
+    font-weight: 700;
+    padding: 0 45px 46px 525px;
+}
